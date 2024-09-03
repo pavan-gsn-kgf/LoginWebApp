@@ -23,7 +23,7 @@ pipeline {
         stage("Check out") {
             steps {
                 script {
-                    git branch: 'feature/nexusUpload', url: 'https://github.com/pavan-gsn-kgf/LoginWebApp.git';
+                    git branch: 'master', url: 'https://github.com/pavan-gsn-kgf/LoginWebApp.git';
                 }
             }
         }
